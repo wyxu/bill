@@ -45,6 +45,7 @@ $config = [
             ],
         ],
     ],
+    'language' => 'zh-CN',
     'params' => $params,
 ];
 
