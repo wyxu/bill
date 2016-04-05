@@ -59,16 +59,14 @@ class User extends ActiveRecord implements \yii\web\IdentityInterface
      */
     public function attributeLabels(){
         return [
-            'id' => Yii::t('app', 'ID'),
-            'username' => Yii::t('app', 'Username'),
-            'auth_key' => Yii::t('app', 'Auth Key'),
-            'password' => Yii::t('app', 'Password Hash'),
-            'access_token' => Yii::t('app', 'Password Reset Token'),
-            'email' => Yii::t('app', 'Email'),
-            'role' => Yii::t('app', 'Role'),
-            'status' => Yii::t('app', 'Status'),
-            'created_at' => Yii::t('app', 'Created At'),
-            'updated_at' => Yii::t('app', 'Updated At'),
+            'id' => Yii::t('app', '主键'),
+            'username' => Yii::t('app', '用户名'),
+            'password' => Yii::t('app', '密码'),
+            'email' => Yii::t('app', '邮箱'),
+            'role' => Yii::t('app', '角色'),
+            'status' => Yii::t('app', '状态'),
+            'created_at' => Yii::t('app', '创建时间'),
+            'updated_at' => Yii::t('app', '更新时间'),
         ];
     }
 
